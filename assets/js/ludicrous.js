@@ -15,5 +15,21 @@ window.onload = function () {
 		document.getElementById('footer').innerHTML = rendered;
 			
 	});	
+
+
+	if (window.location.hash) {
 	
+		/* Render and Display Information */
+	
+	} else {
+		
+		
+		$.get('/assets/ms/search.ms', function(template) {
+			
+			document.getElementById('search').innerHTML = template;
+			document.getElementById('search').style.marginTop = "20em";
+			
+		});
+		
+	}	
 }
