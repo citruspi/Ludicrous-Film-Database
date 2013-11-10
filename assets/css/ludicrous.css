@@ -1,5 +1,40 @@
+body {
+	margin-bottom: 5em;
+}
+
 #main {
 	
 	margin-top: 5em;
 		
+}
+
+#options {
+
+	margin-top: 0.5em;
+	/*margin-bottom: 2em;*/
+
+}
+
+#searchResults {
+	margin-top: 2em;
+}
+
+.results {
+	margin-top: 0.0em;
+}
+
+.results a{
+	text-decoration: none;
+	/*color: inherit;*/
+	color: #524e86;
+}
+
+.results a:hover{
+	text-decoration: none;
+	/*color: inherit;		*/
+}
+
+.modal-dialog {
+	width: 60%;
+	margin-top: 5em;
 }
