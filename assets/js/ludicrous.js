@@ -2,7 +2,7 @@ window.onload = function () {
 	
 	/* Render and Display Footer */
 	
-	$.get('/assets/ms/footer.ms', function(template) {
+	$.get('assets/ms/footer.ms', function(template) {
 		
 		var adjectives = ["Sexy", "Fast", "Lite", "Minimal"];
 		
@@ -16,7 +16,7 @@ window.onload = function () {
 			
 	});	
 
-	$.get('/assets/ms/header.ms', function(template) {
+	$.get('assets/ms/header.ms', function(template) {
 		
 		var adjectives = ["Sexy", "Fast", "Lite", "Minimal"];
 		
@@ -37,7 +37,7 @@ window.onload = function () {
 	
 	} else {
 		
-		$.get('/assets/ms/search.ms', function(template) {
+		$.get('assets/ms/search.ms', function(template) {
 			
 			document.getElementById('search').innerHTML = template;
 			//document.getElementById('search').style.marginTop = "20em";
@@ -118,7 +118,7 @@ window.onload = function () {
 
                     			var filmID = this.getAttribute('film');
 
-								$.get('/assets/ms/film.ms', function(template) {
+								$.get('assets/ms/film.ms', function(template) {
 
 									var params = {
                         				'api_key': '5a55944d5f08c3c2fb90bbed7eea460f',
